@@ -1,4 +1,6 @@
-# Basic Linux Knowledge
+# Red Hat Linux Administrator Questions
+
+## Basic Linux Knowledge
 1. What is Linux? What is the difference between Linux and Windows?
 2. Explain the basic directory structure of Linux.
 `/home, /etc, /bin, /var, /tmp, /usr, etc.`
@@ -27,7 +29,7 @@
 19. What is the purpose of the /etc/passwd file?
 20. What is the role of the /etc/fstab file?
 
-# Red Hat Linux Specific
+## Red Hat Linux Specific
 1. How does Red Hat Linux handle package management, and what tools do you use?
 2. What is YUM (Yellowdog Updater, Modified), and how does it differ from RPM?
 3. What is SELinux, and how do you configure it?
@@ -38,7 +40,7 @@
 8. How do you update the system using dnf or yum in RHEL 8?
 9. What is the role of firewalld in Red Hat, and how do you configure it?
 
-# Networking
+## Networking
 1. How would you configure a network interface on a Red Hat Linux system?
 2. What are the different types of network interfaces in Linux?
 3. Explain how you would troubleshoot network connectivity issues in Linux.
@@ -47,7 +49,7 @@
 6. Explain the difference between a static IP, dynamic IP, and DHCP.
 7. What is the netstat command, and how do you use it for troubleshooting?
 
-# Disk Management and Filesystems
+## Disk Management and Filesystems
 1. How do you create and manage disk partitions in Linux?
 2.  Explain the LVM (Logical Volume Management) in Linux and how it is used.
 3.  What are the common file systems supported by Red Hat Linux?
@@ -56,7 +58,7 @@
 6.  What is the difference between ext4, xfs, and btrfs file systems?
 7.  How do you check disk space usage in Linux?
 
-# Security and User Management
+## Security and User Management
 1. How do you configure user authentication in Linux?
 2. What is sudo, and how do you configure it for users?
 3. How do you manage SSH keys for secure login?
@@ -66,7 +68,7 @@
 7. How do you manage SELinux in enforcing, permissive, and disabled modes?
 8. What are Linux groups, and how do you manage group permissions?
 
-# Process Management and Performance
+## Process Management and Performance
 1. How do you monitor the performance of a Linux system?
 2. What tools would you use to troubleshoot CPU and memory utilization issues?
 3. How do you manage background processes in Linux?
@@ -75,27 +77,27 @@
 6. What is nice and renice in Linux?
 7. Explain the significance of the vmstat and iostat commands.
 
-# Backup and Recovery
+## Backup and Recovery
 1. How would you perform a backup of a Red Hat Linux system?
 2. What is the difference between full, incremental, and differential backups?
 3. What tools are available in Linux for backing up and restoring data?
 4. How would you restore a system using a backup in case of failure?
 5. How do you schedule backups using cron?
 
-# Automation and Scripting
+## Automation and Scripting
 1. What is the purpose of shell scripting in Linux, and how do you create a script?
 2. How do you schedule tasks using cron and at in Linux?
 3. Explain how environment variables work in a shell.
 4. What is a bash script, and how would you make it executable?
 5. How do you debug a shell script that is not running correctly?
 
-# System Maintenance
+## System Maintenance
 1. How do you monitor system logs in Linux?
 2. What is the significance of journalctl in Red Hat Linux?
 3. How do you handle system updates in a production environment?
 4. How would you perform routine system maintenance, such as clearing cache or rotating logs?
 
-# Troubleshooting
+## Troubleshooting
 1. What steps would you take to troubleshoot a system that is not booting?
 2. How would you debug a service that is failing to start on a Red Hat system?
 3. How do you recover from a system crash or kernel panic?
@@ -103,7 +105,7 @@
 5. How do you check system logs for errors in Red Hat Linux?
 
 
-# Advanced Level (Expert)
+## Advanced Level (Expert)
 1. What is SELinux (Security-Enhanced Linux), and how do you manage it?
 `getenforce, setenforce, /etc/selinux/config`
 2. How do you configure and manage a firewall in Red Hat Linux using firewalld?
