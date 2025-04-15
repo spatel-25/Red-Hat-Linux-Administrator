@@ -1,4 +1,4 @@
-# Red Hat Linux Administrator Questions
+# Red Hat Linux Administrator
 
 ## Basic Linux Knowledge
 1. What is Linux? What is the difference between Linux and Windows?
